@@ -190,7 +190,7 @@ bar {
 # Window shapes
 gaps inner 20
 default_border pixel 3
-#client.focused 101010 101010
+client.focused #00ff00 #285577 #ffffff #2e9ef4 #559090
 
 # Startup Apps
 exec_always feh --bg-scale ~/Pictures/wallpaper.jpg
