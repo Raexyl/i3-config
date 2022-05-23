@@ -10,7 +10,7 @@ hide_edge_borders both
 
 ### Startup Apps ###
 # Background wallpaper
-exec_always feh --bg-scale ~/Pictures/wallpaper.jpg7
+exec_always feh --bg-scale ~/Pictures/wallpaper.jpg
 
 # Redshift
 exec redshift -O 4000     
@@ -40,7 +40,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 ### Shortcuts ###
 # Use Mouse + windows key to to drag floating windows to their wanted position
-floating_modifier $mod                                  
+floating_modifier $mod 
 
 # Open Terminal
 bindsym $mod+Return exec i3-sensible-terminal      
@@ -50,7 +50,7 @@ bindsym $mod+Shift+q kill
 
 # Start rofi with mod+d
 bindcode $mod+40 exec "rofi -show run -font 'System San Francisco Display 14' -icon-theme 'Papirus' -show-icons"
-                                                        
+
 # change window focus
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
